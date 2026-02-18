@@ -12,11 +12,11 @@
         public int CategoryId { get; set; }
         public int SupplierId { get; set; }
         public int BrandId { get; set; }
-        public int OrderId { get; set; }
+        
 
         public Categories Category { get; set; }
         public Suppliers Supplier { get; set; }
         public Brands Brand { get; set; }
-        public Orders Order { get; set; } = new Orders();
+      public ICollection<Orders> Order {  get; set; }
     }
 }

@@ -17,7 +17,7 @@ namespace SportnaSila.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.10")
+                .HasAnnotation("ProductVersion", "9.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -292,9 +292,6 @@ namespace SportnaSila.Data.Migrations
                     b.Property<DateTime>("DateOrder")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
@@ -304,6 +301,8 @@ namespace SportnaSila.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ClientId");
+
+                    b.HasIndex("ProductId");
 
                     b.ToTable("Orders");
                 });
@@ -334,9 +333,6 @@ namespace SportnaSila.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -351,8 +347,6 @@ namespace SportnaSila.Data.Migrations
                     b.HasIndex("BrandId");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("OrderId");
 
                     b.HasIndex("SupplierId");
 
@@ -447,7 +441,15 @@ namespace SportnaSila.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("SportnaSila.Models.Products", "Product")
+                        .WithMany("Order")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Client");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("SportnaSila.Models.Products", b =>
@@ -464,12 +466,6 @@ namespace SportnaSila.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SportnaSila.Models.Orders", "Order")
-                        .WithMany("Products")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("SportnaSila.Models.Suppliers", "Supplier")
                         .WithMany("Products")
                         .HasForeignKey("SupplierId")
@@ -479,8 +475,6 @@ namespace SportnaSila.Data.Migrations
                     b.Navigation("Brand");
 
                     b.Navigation("Category");
-
-                    b.Navigation("Order");
 
                     b.Navigation("Supplier");
                 });
@@ -500,9 +494,9 @@ namespace SportnaSila.Data.Migrations
                     b.Navigation("Orders");
                 });
 
-            modelBuilder.Entity("SportnaSila.Models.Orders", b =>
+            modelBuilder.Entity("SportnaSila.Models.Products", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("SportnaSila.Models.Suppliers", b =>
