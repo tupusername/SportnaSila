@@ -3,64 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\data\\migrations\\20260218100147_mograciq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\data\\migrations\\20260218100147_mograciq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\brands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\brands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,49 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "SportnaSila\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "SportnaSila\\Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:50:45.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:06:23.64Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ApplicationBuilderExtension.cs",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Services\\ApplicationBuilderExtension.cs",
               "RelativeDocumentMoniker": "SportnaSila\\Services\\ApplicationBuilderExtension.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Services\\ApplicationBuilderExtension.cs*",
-              "RelativeToolTip": "SportnaSila\\Services\\ApplicationBuilderExtension.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBIAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "SportnaSila\\Services\\ApplicationBuilderExtension.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:33:41.549Z",
+              "WhenOpened": "2026-02-25T09:06:10.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20260218100147_mograciq.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Data\\Migrations\\20260218100147_mograciq.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Data\\Migrations\\20260218100147_mograciq.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Data\\Migrations\\20260218100147_mograciq.cs",
-              "RelativeToolTip": "SportnaSila\\Data\\Migrations\\20260218100147_mograciq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAADwv3MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T10:01:47.531Z",
+              "WhenOpened": "2026-02-25T08:48:07.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC0AAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T08:48:01.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Products.cs",
-              "RelativeToolTip": "SportnaSila\\Models\\Products.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:38:24.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Clients.cs",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Clients.cs",
               "RelativeDocumentMoniker": "SportnaSila\\Models\\Clients.cs",
@@ -122,140 +113,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T09:36:31.013Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Program.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Program.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Program.cs*",
-              "RelativeToolTip": "SportnaSila\\Program.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwBsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T10:48:59.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Orders.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Models\\Orders.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Orders.cs",
-              "RelativeToolTip": "SportnaSila\\Models\\Orders.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:38:03.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwEEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T11:02:26.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "SportnaSila\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "SportnaSila\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:36:43.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SportnaSila\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:41:18.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Suppliers.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Suppliers.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Models\\Suppliers.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Suppliers.cs",
-              "RelativeToolTip": "SportnaSila\\Models\\Suppliers.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:38:53.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "SportnaSila\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "SportnaSila\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-16T10:58:40.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "SportnaSila\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T11:00:11.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SportnaSila\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SportnaSila\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T10:30:50.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Categories.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Models\\Categories.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Categories.cs",
-              "RelativeToolTip": "SportnaSila\\Models\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:37:28.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Brands.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Brands.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Models\\Brands.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Models\\Brands.cs",
-              "RelativeToolTip": "SportnaSila\\Models\\Brands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T09:36:56.711Z"
             }
           ]
         }

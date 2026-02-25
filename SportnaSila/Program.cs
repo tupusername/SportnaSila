@@ -20,8 +20,7 @@ namespace SportnaSila
 
             builder.Services.AddDefaultIdentity<Clients>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<ApplicationDbContext>();   
             builder.Services.AddControllersWithViews();
             var app = builder.Build();
 
