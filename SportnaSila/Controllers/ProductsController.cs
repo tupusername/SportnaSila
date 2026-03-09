@@ -61,8 +61,9 @@ namespace SportnaSila.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,ImgUrl,Price,Quantity,CategoryId,SupplierId,BrandId")] Products products)
+        public async Task<IActionResult> Create([Bind("Name,Description,ImgUrl,Price,Quantity,CategoryId,SupplierId,BrandId")] Products products)
         {
+           
             if (ModelState.IsValid)
             {
                 _context.Add(products);

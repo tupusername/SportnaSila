@@ -61,8 +61,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\css\site.css
-C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\favicon.ico
 C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\js\site.js
 C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -123,3 +121,5 @@ C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\lib\jquery\
 C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\favicon.ico
+C:\Users\1212-10\Desktop\Ivelin1312a\SportnaSila\SportnaSila\wwwroot\css\site.css

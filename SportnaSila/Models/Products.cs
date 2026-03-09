@@ -1,4 +1,6 @@
-﻿namespace SportnaSila.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SportnaSila.Models
 {
     public class Products
     {
