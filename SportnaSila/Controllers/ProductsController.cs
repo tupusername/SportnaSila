@@ -50,9 +50,9 @@ namespace SportnaSila.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
-            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Id");
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Id");
+            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "BrandName");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name");
             return View();
         }
 
@@ -70,9 +70,9 @@ namespace SportnaSila.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Id", products.BrandId);
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", products.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Id", products.SupplierId);
+            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "BrandName", products.BrandId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", products.CategoryId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name", products.SupplierId);
             return View(products);
         }
 
@@ -89,9 +89,9 @@ namespace SportnaSila.Controllers
             {
                 return NotFound();
             }
-            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Id", products.BrandId);
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", products.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Id", products.SupplierId);
+            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "BrandName", products.BrandId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", products.CategoryId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name", products.SupplierId);
             return View(products);
         }
 
@@ -127,9 +127,9 @@ namespace SportnaSila.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Id", products.BrandId);
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", products.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Id", products.SupplierId);
+            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "BrandName", products.BrandId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", products.CategoryId);
+            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "Id", "Name", products.SupplierId);
             return View(products);
         }
 

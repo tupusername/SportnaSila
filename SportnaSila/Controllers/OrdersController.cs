@@ -2,21 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SportnaSila.Data;
 using SportnaSila.Models;
 
+
 namespace SportnaSila.Controllers
-{
+{[Authorize]
     public class OrdersController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Clients>_userManager;
 
-        public OrdersController(ApplicationDbContext context)
+        public OrdersController(ApplicationDbContext context,UserManager<Clients>userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Orders
@@ -49,7 +54,7 @@ namespace SportnaSila.Controllers
         // GET: Orders/Create
         public IActionResult Create()
         {
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id");
+           // ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id");
             ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id");
             return View();
         }
@@ -59,7 +64,7 @@ namespace SportnaSila.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ClientId,ProductId,Quantity,DateOrder")] Orders orders)
+        public async Task<IActionResult> Create([Bind("Id,ProductId,Quantity,DateOrder")] Orders orders)
         {
             if (ModelState.IsValid)
             {
@@ -67,7 +72,7 @@ namespace SportnaSila.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
+            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
             ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", orders.ProductId);
             return View(orders);
         }
@@ -85,7 +90,7 @@ namespace SportnaSila.Controllers
             {
                 return NotFound();
             }
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
+            //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
             ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", orders.ProductId);
             return View(orders);
         }
@@ -95,7 +100,7 @@ namespace SportnaSila.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ClientId,ProductId,Quantity,DateOrder")] Orders orders)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ProductId,Quantity,DateOrder")] Orders orders)
         {
             if (id != orders.Id)
             {
@@ -122,7 +127,7 @@ namespace SportnaSila.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
+           // ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
             ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", orders.ProductId);
             return View(orders);
         }
