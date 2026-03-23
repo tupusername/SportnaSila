@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportnaSila")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6427e7275d5cd56b1581579a3523ea0ccd7f78a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6b253af01c2be06db1c9e7d856396d5db65f27f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportnaSila")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportnaSila")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

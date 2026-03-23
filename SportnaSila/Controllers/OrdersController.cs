@@ -16,7 +16,7 @@ namespace SportnaSila.Controllers
     public class OrdersController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<Clients>_userManager;
+        private readonly UserManager<Clients> _userManager;
 
         public OrdersController(ApplicationDbContext context,UserManager<Clients>userManager)
         {
@@ -27,7 +27,8 @@ namespace SportnaSila.Controllers
         // GET: Orders
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Orders.Include(o => o.Client).Include(o => o.Product);
+            var applicationDbContext = _context.Orders.Include(o => o.Client)
+                                                      .Include(o => o.Product);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -55,7 +56,7 @@ namespace SportnaSila.Controllers
         public IActionResult Create()
         {
            // ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id");
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id");
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name");
             return View();
         }
 
@@ -64,8 +65,10 @@ namespace SportnaSila.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ProductId,Quantity,DateOrder")] Orders orders)
+        public async Task<IActionResult> Create([Bind("ProductId,Quantity")] Orders orders)
         {
+            orders.ClientId = _userManager.GetUserId(User);
+            orders.DateOrder = DateTime.Now;
             if (ModelState.IsValid)
             {
                 _context.Add(orders);
@@ -73,7 +76,7 @@ namespace SportnaSila.Controllers
                 return RedirectToAction(nameof(Index));
             }
             //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", orders.ProductId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name", orders.ProductId);
             return View(orders);
         }
 
@@ -91,7 +94,7 @@ namespace SportnaSila.Controllers
                 return NotFound();
             }
             //ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", orders.ProductId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name", orders.ProductId);
             return View(orders);
         }
 
@@ -128,7 +131,7 @@ namespace SportnaSila.Controllers
                 return RedirectToAction(nameof(Index));
             }
            // ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id", orders.ClientId);
-            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Id", orders.ProductId);
+            ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name", orders.ProductId);
             return View(orders);
         }
 
