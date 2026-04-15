@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YccmdclBttI=",
+  "dgSpecHash": "oESKz5LQWfs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\SportnaSila.csproj",
+  "projectFilePath": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\SportnaSila.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1212-10\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\1212-10\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

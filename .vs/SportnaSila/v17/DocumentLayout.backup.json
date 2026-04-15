@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\",
+  "WorkspaceRootPath": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\ivelin1312a\\sportnasila\\sportnasila\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "SportnaSila\\Views\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "SportnaSila\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T10:53:00.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Orders\\Create.cshtml",
-              "RelativeDocumentMoniker": "SportnaSila\\Views\\Orders\\Create.cshtml",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Views\\Orders\\Create.cshtml",
-              "RelativeToolTip": "SportnaSila\\Views\\Orders\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-16T10:54:38.597Z",
-              "EditorCaption": ""
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SportnaSila\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "SportnaSila\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T08:55:33.738Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\Ivelin1312a\\SportnaSila\\SportnaSila\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "SportnaSila\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T10:33:38.544Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportnaSila\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "SportnaSila\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswC4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T09:06:26.57Z",
               "EditorCaption": ""
             }
           ]
