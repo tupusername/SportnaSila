@@ -1,66 +1,74 @@
 ﻿@model SportnaSila.Models.Products
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Детайли за продукт";
 }
 
-<h1>Details</h1>
+<section class="product-details-section py-5">
+    <div class="container">
+        <div class="details-card">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="details-image-wrap">
+                        <img src="@(string.IsNullOrEmpty(Model.ImgUrl) ? "https://via.placeholder.com/700x500?text=SportnaSila" : Model.ImgUrl)"
+                             alt="@Model.Name"
+                             class="details-image" />
+                    </div>
+                </div>
 
-<div>
-    <h4>Products</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImgUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImgUrl)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Supplier)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Supplier.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Brand)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Brand.Id)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+                <div class="col-lg-6">
+                    <div class="details-content">
+                        <span class="details-badge">
+                            @(Model.Category != null ? Model.Category.Name : "Категория")
+                        </span>
+
+                        <h1 class="details-title mt-3">@Model.Name</h1>
+
+                        <p class="details-description">
+                            @Model.Description
+                        </p>
+
+                        <div class="details-price mb-4">
+                            @Model.Price.ToString("0.00") €
+                        </div>
+
+                        <div class="details-info-list">
+                            <div class="details-info-item">
+                                <strong>Количество:</strong>
+                                <span>@Model.Quantity</span>
+                            </div>
+
+                            <div class="details-info-item">
+                                <strong>Категория:</strong>
+                                <span>@(Model.Category != null ? Model.Category.Name : "Няма")</span>
+                            </div>
+
+                            <div class="details-info-item">
+                                <strong>Марка:</strong>
+                                <span>@(Model.Brand != null ? Model.Brand.BrandName : "Няма")</span>
+                            </div>
+
+                            <div class="details-info-item">
+                                <strong>Доставчик:</strong>
+                                <span>@(Model.Supplier != null ? Model.Supplier.Name : "Няма")</span>
+                            </div>
+                        </div>
+
+                        <div class="details-actions mt-4">
+                            <a asp-action="Index" class="btn btn-outline-dark">
+                                Назад
+                            </a>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-main">
+                                    Редакция
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

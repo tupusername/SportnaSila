@@ -13,17 +13,25 @@
 
 <section class="pb-5">
     <div class="container">
+
         <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
-            <a asp-action="Create" class="btn btn-main">
-                Добави нов продукт
-            </a>
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Create" class="btn btn-main">
+                    Добави нов продукт
+                </a>
+            }
         </div>
 
         <div class="row g-4">
             @foreach (var item in Model)
             {
                 <div class="col-md-6 col-lg-4">
-                    <div class="product-card">
+
+                    <!-- ЦЯЛАТА КАРТА Е CLICKABLE -->
+                    <div class="product-card"
+                         onclick="window.location='@Url.Action("Details", "Products", new { id = item.Id })'">
+
                         <img src="@(string.IsNullOrEmpty(item.ImgUrl) ? "https://via.placeholder.com/600x400?text=SportnaSila" : item.ImgUrl)"
                              alt="@item.Name"
                              class="product-image" />
@@ -48,23 +56,33 @@
                             </div>
 
                             <div class="d-flex justify-content-between align-items-center mt-3">
-
-                                <span class="product-price text-success fw-bold">
-                                    @item.Price.ToString("0.00") €
-                                </span>
-                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-dark">
-                                    Детайли
-                                </a>
+                                <span class="product-price">@item.Price.ToString("0.00") €</span>
+                                <span class="btn btn-outline-dark">Детайли</span>
                             </div>
 
-                            <div class="admin-actions mt-3">
-                                <a asp-action="Edit" asp-route-id="@item.Id">Редакция</a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="text-danger">Изтрий</a>
-                            </div>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div class="admin-actions mt-3">
+                                    <a asp-action="Edit"
+                                       asp-route-id="@item.Id"
+                                       onclick="event.stopPropagation();">
+                                        Редакция
+                                    </a>
+
+                                    <a asp-action="Delete"
+                                       asp-route-id="@item.Id"
+                                       class="text-danger"
+                                       onclick="event.stopPropagation();">
+                                        Изтрий
+                                    </a>
+                                </div>
+                            }
                         </div>
                     </div>
+
                 </div>
             }
         </div>
+
     </div>
 </section>

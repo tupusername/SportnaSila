@@ -883,4 +883,4 @@ C:\Users\1212-10\Desktop\SportnaSila\SportnaSila\obj\Debug\net9.0\refint\Sportna
 C:\Users\1212-10\Desktop\SportnaSila\SportnaSila\obj\Debug\net9.0\SportnaSila.pdb
 C:\Users\1212-10\Desktop\SportnaSila\SportnaSila\obj\Debug\net9.0\SportnaSila.genruntimeconfig.cache
 C:\Users\1212-10\Desktop\SportnaSila\SportnaSila\obj\Debug\net9.0\ref\SportnaSila.dll
-C:\Users\1212-10\Desktop\SportnaSila\SportnaSila\obj\Debug\net9.0\compressed\mgk20w2gx2-i6kyn1rtpd.gz
+C:\Users\1212-10\Desktop\SportnaSila\SportnaSila\obj\Debug\net9.0\compressed\mgk20w2gx2-4p4k4gmqsn.gz
