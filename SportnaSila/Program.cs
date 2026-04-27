@@ -72,7 +72,7 @@ namespace SportnaSila
                         EmailConfirmed = true,
                         FirstName = "Admin",
                         LastName = "User",
-                        PhoneNumber="0881234567"
+                        PhoneNumber = "0881234567"
                     };
 
                     var result = await userManager.CreateAsync(user, adminPassword);
@@ -102,8 +102,11 @@ namespace SportnaSila
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
+
             app.UseRouting();
 
+            
             app.UseSession();
 
             app.UseAuthentication();
