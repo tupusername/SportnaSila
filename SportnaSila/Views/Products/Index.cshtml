@@ -57,7 +57,20 @@
 
                             <div class="d-flex justify-content-between align-items-center mt-3">
                                 <span class="product-price">@item.Price.ToString("0.00") €</span>
-                                <span class="btn btn-outline-dark">Детайли</span>
+
+                                <form asp-controller="Products"
+                                      asp-action="AddToCart"
+                                      method="post"
+                                      onclick="event.stopPropagation();">
+
+                                    @Html.AntiForgeryToken()
+
+                                    <input type="hidden" name="productId" value="@item.Id" />
+
+                                    <button type="submit" class="btn btn-primary btn-sm">
+                                        Добави в количката
+                                    </button>
+                                </form>
                             </div>
 
                             @if (User.IsInRole("Admin"))

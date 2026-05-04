@@ -1,23 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SportnaSila.Data;
 using SportnaSila.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace SportnaSila.Controllers
 {
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Clients> _userManager;
 
-        public ProductsController(ApplicationDbContext context)
+        public ProductsController(ApplicationDbContext context, UserManager<Clients> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Products
@@ -49,7 +52,7 @@ namespace SportnaSila.Controllers
         }
 
         // GET: Products/Create
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "BrandName");
@@ -65,7 +68,7 @@ namespace SportnaSila.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Name,Description,ImgUrl,Price,Quantity,CategoryId,SupplierId,BrandId")] Products products)
         {
-           
+
             if (ModelState.IsValid)
             {
                 _context.Add(products);
@@ -170,6 +173,31 @@ namespace SportnaSila.Controllers
             }
 
             await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddToCart([FromForm] int productId)
+        {
+            var userId = _userManager.GetUserId(User);
+
+            if (userId == null)
+                return Unauthorized();
+
+            if (productId <= 0)
+                return BadRequest();
+
+            var order = new Orders
+            {
+                ClientId = userId,
+                ProductId = productId,
+                Quantity = 1,
+                DateOrder = DateTime.Now
+            };
+
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 

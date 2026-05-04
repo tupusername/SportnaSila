@@ -1,8 +1,7 @@
-по-добър home page
+
 кошница
 търсачка
 филтър по категория и марка
 любими продукти
-по-хубав admin panel
 product details с бутон “Добави в количка”
-различен интерфейс за Admin и User
+registriraniq potrebitel da ne vijda poruchki na drugiq 

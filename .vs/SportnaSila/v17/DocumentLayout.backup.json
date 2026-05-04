@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\1212-10\\Desktop\\SportnaSila\\SessionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:SessionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|c:\\users\\1212-10\\desktop\\sportnasila\\sportnasila\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC883184-6D74-453C-840D-4C4C3058246A}|SportnaSila\\SportnaSila.csproj|solutionrelative:sportnasila\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,50 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "SportnaSila\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Models\\CartItem.cs",
-              "RelativeToolTip": "SportnaSila\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:39:24.485Z",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SportnaSila\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SportnaSila\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T10:18:51.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SessionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SessionExtensions.cs",
-              "RelativeDocumentMoniker": "SessionExtensions.cs",
-              "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SessionExtensions.cs",
-              "RelativeToolTip": "SessionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:30:08.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Program.cs",
               "RelativeDocumentMoniker": "SportnaSila\\Program.cs",
               "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Program.cs",
               "RelativeToolTip": "SportnaSila\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T07:40:41.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "SportnaSila\\wwwroot\\css\\site.css",
@@ -89,12 +76,11 @@
               "RelativeToolTip": "SportnaSila\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAwCAAAAAAAAAAAUwBYCAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-22T07:38:49.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T07:38:49.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Products\\Details.cshtml",
               "RelativeDocumentMoniker": "SportnaSila\\Views\\Products\\Details.cshtml",
@@ -107,28 +93,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "SportnaSila\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "SportnaSila\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAuwIsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAwwMkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T08:55:33.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "SportnaSila\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "SportnaSila\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-30T09:06:26.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "SportnaSila\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\1212-10\\Desktop\\SportnaSila\\SportnaSila\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "SportnaSila\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:28:16.433Z",
               "EditorCaption": ""
             }
           ]

@@ -27,9 +27,14 @@ namespace SportnaSila.Controllers
         // GET: Orders
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Orders.Include(o => o.Client)
-                                                      .Include(o => o.Product);
-            return View(await applicationDbContext.ToListAsync());
+
+            var userId = _userManager.GetUserId(User);
+            var orders = _context.Orders
+                .Include(o => o.Client)
+                .Include(o => o.Product)
+                .Where(o => o.Client.Id == userId);
+
+            return View(await orders.ToListAsync());
         }
 
         // GET: Orders/Details/5
